@@ -1,0 +1,6 @@
+li {
+    border: blue 5px solid;
+    border-collapse: collapse;
+    padding: 10px 40px;
+    list-style: none;
+}

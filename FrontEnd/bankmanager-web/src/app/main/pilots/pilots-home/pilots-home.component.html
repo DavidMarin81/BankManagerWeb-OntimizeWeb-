@@ -1,0 +1,33 @@
+<div>
+    <h2>Data API Demo</h2>
+    <ul>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>NAME</th>
+                    <th>STATUS</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <li *ngFor="let item of data">
+                            {{item.id}}
+                        </li>
+                    </td>
+                    <td>
+                        <li *ngFor="let item of data">
+                            {{item.name}}
+                        </li>
+                    </td>
+                    <td>
+                        <li *ngFor="let item of data">
+                            {{item.status}}
+                        </li>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </ul>
+</div>
